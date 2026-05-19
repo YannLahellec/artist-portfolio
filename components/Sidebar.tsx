@@ -23,7 +23,7 @@ export default function Sidebar() {
                             <span className="block">Anne</span>
                             <span className="block">Roulant</span>
                         </h1>
-                        <h2 className="font-ed-garamond font-light text-zinc-500">PEINTRE - PARIS</h2>
+                        <h2 className="font-ed-garamond font-light text-zinc-500">ARTISTE PEINTRE</h2>
                     </div>
                     <div className="flex flex-col gap-4">
                         <h3 className="font-jost text-zinc-400">COLLECTION</h3>
