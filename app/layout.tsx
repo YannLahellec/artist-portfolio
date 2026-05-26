@@ -1,7 +1,7 @@
 import type { Metadata } from "next";
 import { EB_Garamond, Jost } from "next/font/google";
 import "./globals.css";
-import Sidebar from "@/components/Sidebar";
+import Footer from "@/components/Footer";
 
 const ebGaramond = EB_Garamond({
   variable: "--font-eb-garamond",
@@ -26,11 +26,11 @@ export default function RootLayout({
   return (
     <html
       lang="fr"
-      className={`${ebGaramond.variable} ${jost.variable} h-full antialiased`}
+      className={`${ebGaramond.variable} ${jost.variable} antialiased`}
     >
-      <body className="flex h-screen">
-        {/* <Sidebar /> */}
-        <main className="flex-1 overflow-y-auto">{children}</main>
+      <body>
+        <main>{children}</main>
+        <Footer />
       </body>
     </html>
   );
