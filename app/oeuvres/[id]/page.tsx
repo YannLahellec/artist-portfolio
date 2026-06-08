@@ -3,12 +3,6 @@ import Link from "next/link";
 import { notFound } from "next/navigation";
 import { artworks } from "@/lib/data/artworks";
 
-const categoryLabels = {
-  peinture: "Peinture",
-  dessin: "Dessin",
-  "anne-gilles": "Anne & Gilles",
-};
-
 export function generateStaticParams() {
   return artworks.map((a) => ({ id: String(a.id) }));
 }
@@ -25,10 +19,10 @@ export default async function ArtworkPage({
 
   return (
     <div className="min-h-screen flex flex-col">
-      <nav className="px-8 py-6">
+      <nav className="px-8 py-6 pt-20">
         <Link
-          href="/"
-          className="font-jost text-[10px] tracking-[0.25em] text-zinc-400 hover:text-zinc-900 transition-colors"
+          href={`/${artwork.category}`}
+          className="font-jost text-[10px] tracking-[0.25em] text-zinc-500 hover:text-foreground transition-colors"
         >
           ← RETOUR
         </Link>
@@ -51,14 +45,6 @@ export default async function ArtworkPage({
         />
       </div>
 
-      <div className="px-8 md:px-16 py-8">
-        <h1 className="font-ed-garamond text-3xl md:text-4xl font-semibold">
-          {artwork.title}
-        </h1>
-        <p className="font-jost text-[10px] tracking-[0.3em] text-zinc-400 mt-2">
-          {categoryLabels[artwork.category]}
-        </p>
-      </div>
     </div>
   );
 }

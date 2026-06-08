@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import { EB_Garamond, Jost } from "next/font/google";
 import "./globals.css";
+import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer";
 
 const ebGaramond = EB_Garamond({
@@ -29,6 +30,7 @@ export default function RootLayout({
       className={`${ebGaramond.variable} ${jost.variable} antialiased`}
     >
       <body>
+        <Navbar />
         <main>{children}</main>
         <Footer />
       </body>
