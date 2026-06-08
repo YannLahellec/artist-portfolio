@@ -1,6 +1,6 @@
 export default function Footer() {
   return (
-    <footer className="border-t border-zinc-200 px-6 py-12 md:px-12 lg:px-20">
+    <footer className="bg-background border-t border-zinc-800 px-6 py-12 md:px-12 lg:px-20">
       <div className="flex flex-col md:flex-row md:items-end justify-between gap-8">
         <div>
           <h2 className="font-ed-garamond text-2xl font-semibold">Anne Roulant</h2>
@@ -12,7 +12,7 @@ export default function Footer() {
             <p className="font-jost text-[10px] tracking-[0.2em] text-zinc-400">CONTACT</p>
             <a
               href="mailto:contact@anneroulant.fr"
-              className="font-jost text-sm text-zinc-700 hover:text-zinc-900 transition-colors"
+              className="font-jost text-sm text-zinc-300 hover:text-white transition-colors"
             >
               anne.roulant-gorce@orange.fr
             </a>
@@ -24,7 +24,7 @@ export default function Footer() {
               href="https://www.instagram.com/anneroulant/"
               target="_blank"
               rel="noopener noreferrer"
-              className="font-jost text-sm text-zinc-700 hover:text-zinc-900 transition-colors"
+              className="font-jost text-sm text-zinc-300 hover:text-white transition-colors"
             >
               Instagram
             </a>
@@ -32,7 +32,7 @@ export default function Footer() {
               href="https://www.facebook.com/profile.php?id=100074603950526"
               target="_blank"
               rel="noopener noreferrer"
-              className="font-jost text-sm text-zinc-700 hover:text-zinc-900 transition-colors"
+              className="font-jost text-sm text-zinc-300 hover:text-white transition-colors"
             >
               Facebook
             </a>
