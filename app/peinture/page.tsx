@@ -8,7 +8,7 @@ export const metadata: Metadata = {
 export default function PeinturePage() {
   return (
     <div className="pt-16">
-      <div className="px-8 md:px-16 pt-14 pb-4">
+      <div className="px-8 md:px-16 pt-6 md:pt-14 pb-2 md:pb-4">
         <h1 className="font-ed-garamond text-4xl md:text-5xl font-semibold">Peintures</h1>
       </div>
       <Gallery category="peinture" />
