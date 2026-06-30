@@ -6,8 +6,10 @@ import { useState } from 'react';
 
 const categories = [
   { label: 'Peintures', href: '/peinture' },
-  { label: 'Dessins', href: '/dessin' },
-  { label: 'Anne & Gilles', href: '/anne-gilles' },
+  { label: 'Aquarelles', href: '/aquarelle' },
+  { label: 'Pastels', href: '/pastel' },
+  { label: 'Photo & Peinture', href: '/photo-peinture' },
+  { label: 'Livres', href: '/livres' },
 ];
 
 export default function Navbar() {
@@ -63,7 +65,7 @@ export default function Navbar() {
       {/* Mobile menu */}
       <div
         className={`md:hidden overflow-hidden transition-all duration-300 ease-in-out ${
-          open ? 'max-h-60' : 'max-h-0'
+          open ? 'max-h-96' : 'max-h-0'
         }`}
       >
         <div className="bg-background/95 backdrop-blur-md border-t border-white/5 px-6 py-6 flex flex-col gap-6">
