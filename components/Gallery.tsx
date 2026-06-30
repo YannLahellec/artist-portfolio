@@ -11,7 +11,7 @@ export default function Gallery({ category }: Props) {
     : artworks;
 
   return (
-    <section className="px-6 py-12 md:px-12 lg:px-20">
+    <section className="px-6 py-4 md:py-12 md:px-12 lg:px-20">
       <div className="grid grid-cols-2 md:grid-cols-3 gap-4 md:gap-6">
         {filtered.map((artwork, index) => (
           <ArtworkCard key={artwork.id} artwork={artwork} priority={index < 6} />

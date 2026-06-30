@@ -18,8 +18,8 @@ export default async function ArtworkPage({
   if (!artwork) notFound();
 
   return (
-    <div className="min-h-screen flex flex-col">
-      <nav className="px-8 py-6 pt-20">
+    <div className="flex flex-col md:min-h-screen">
+      <nav className="px-8 pt-16 pb-3 md:pt-20 md:py-6">
         <Link
           href={`/${artwork.category}`}
           className="font-jost text-[10px] tracking-[0.25em] text-zinc-500 hover:text-foreground transition-colors"
@@ -28,7 +28,7 @@ export default async function ArtworkPage({
         </Link>
       </nav>
 
-      <div className="flex-1 flex items-center justify-center px-8 md:px-16 py-4">
+      <div className="flex md:flex-1 items-center justify-center px-4 md:px-16 py-8 md:py-4">
         <Image
           src={artwork.src}
           alt={artwork.alt}
@@ -44,7 +44,6 @@ export default async function ArtworkPage({
           loading="eager"
         />
       </div>
-
     </div>
   );
 }
