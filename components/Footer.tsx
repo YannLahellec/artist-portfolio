@@ -1,6 +1,7 @@
 export default function Footer() {
   return (
-    <footer className="bg-background border-t border-zinc-800 px-6 py-12 md:px-12 lg:px-20">
+    <footer className="bg-background px-6 py-12 md:px-12 lg:px-20">
+      <div className="h-px bg-linear-to-r from-transparent via-zinc-600 to-transparent mb-12" />
       <div className="flex flex-col md:flex-row md:items-end justify-between gap-8">
         <div>
           <h2 className="font-ed-garamond text-2xl font-semibold">Anne Roulant</h2>
