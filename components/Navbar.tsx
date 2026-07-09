@@ -5,11 +5,11 @@ import { usePathname } from 'next/navigation';
 import { useState } from 'react';
 
 const categories = [
-  { label: 'Peintures', href: '/peinture' },
-  { label: 'Aquarelles', href: '/aquarelle' },
-  { label: 'Pastels', href: '/pastel' },
+  { label: 'Peinture', href: '/peinture' },
+  { label: 'Aquarelle', href: '/aquarelle' },
+  { label: 'Pastel', href: '/pastel' },
   { label: 'Photo & Peinture', href: '/photo-peinture' },
-  { label: 'Livres', href: '/livres' },
+  { label: 'Livre', href: '/livres' },
 ];
 
 export default function Navbar() {
