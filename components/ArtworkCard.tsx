@@ -11,6 +11,7 @@ export default function ArtworkCard({ artwork, priority = false }: { artwork: Ar
           alt={artwork.alt}
           fill
           className="object-cover"
+          style={{ transform: `scale(${artwork.scale ?? 1.1})` }}
           sizes="(max-width: 768px) 50vw, 33vw"
           priority={priority}
         />
