@@ -15,6 +15,7 @@ export const artworks: Artwork[] = [
     alt: "Marine 1",
     title: "Marine 1",
     category: "peinture",
+    scale: 2.5,
   },
   {
     id: 9,
@@ -22,6 +23,7 @@ export const artworks: Artwork[] = [
     alt: "Novembre",
     title: "Novembre",
     category: "peinture",
+    scale: 2.5,
   },
   {
     id: 8,
@@ -37,6 +39,7 @@ export const artworks: Artwork[] = [
     alt: "Glaz",
     title: "Glaz",
     category: "peinture",
+    scale: 2.5,
   },
   {
     id: 6,
@@ -44,6 +47,7 @@ export const artworks: Artwork[] = [
     alt: "Le réveil",
     title: "Le réveil",
     category: "peinture",
+    scale: 2.5,
   },
   {
     id: 4,
@@ -51,6 +55,7 @@ export const artworks: Artwork[] = [
     alt: "Janvier",
     title: "Janvier",
     category: "peinture",
+    scale: 2.5,
   },
   {
     id: 1,
@@ -58,6 +63,7 @@ export const artworks: Artwork[] = [
     alt: "Atelier 1",
     title: "Atelier 1",
     category: "peinture",
+    scale: 2.5,
   },
   {
     id: 2,
@@ -65,6 +71,7 @@ export const artworks: Artwork[] = [
     alt: "Caeruleum mare",
     title: "Caeruleum mare",
     category: "peinture",
+    scale: 2.5,
   },
   {
     id: 5,
@@ -72,6 +79,7 @@ export const artworks: Artwork[] = [
     alt: "Le câlin",
     title: "Le câlin",
     category: "peinture",
+    scale: 2.5,
   },
   // Aquarelle
   {
@@ -80,6 +88,7 @@ export const artworks: Artwork[] = [
     alt: "Maroc 3",
     title: "Maroc 3",
     category: "aquarelle",
+    scale: 2.5,
   },
   {
     id: 14,
@@ -87,6 +96,7 @@ export const artworks: Artwork[] = [
     alt: "Marine 7",
     title: "Marine 7",
     category: "aquarelle",
+    scale: 2.5,
   },
   {
     id: 17,
@@ -94,6 +104,7 @@ export const artworks: Artwork[] = [
     alt: "Maroc 2",
     title: "Maroc 2",
     category: "aquarelle",
+    scale: 2.5,
   },
   {
     id: 10,
@@ -101,6 +112,7 @@ export const artworks: Artwork[] = [
     alt: "Jardin 2",
     title: "Jardin 2",
     category: "aquarelle",
+    scale: 2.5,
   },
   {
     id: 16,
@@ -108,6 +120,7 @@ export const artworks: Artwork[] = [
     alt: "Maroc 1",
     title: "Maroc 1",
     category: "aquarelle",
+    scale: 2.5,
   },
   {
     id: 15,
@@ -115,6 +128,7 @@ export const artworks: Artwork[] = [
     alt: "Marine 9",
     title: "Marine 9",
     category: "aquarelle",
+    scale: 2.5,
   },
   {
     id: 12,
@@ -122,6 +136,7 @@ export const artworks: Artwork[] = [
     alt: "Jardin 7",
     title: "Jardin 7",
     category: "aquarelle",
+    scale: 2.5,
   },
   {
     id: 13,
@@ -129,6 +144,7 @@ export const artworks: Artwork[] = [
     alt: "Marine 4",
     title: "Marine 4",
     category: "aquarelle",
+    scale: 2.5,
   },
   {
     id: 11,
@@ -136,6 +152,7 @@ export const artworks: Artwork[] = [
     alt: "Jardin 5",
     title: "Jardin 5",
     category: "aquarelle",
+    scale: 2.5,
   },
   // Pastel
   {
@@ -144,6 +161,7 @@ export const artworks: Artwork[] = [
     alt: "Atelier 17",
     title: "Atelier 17",
     category: "pastel",
+    scale: 2.5,
   },
   {
     id: 22,
@@ -151,13 +169,15 @@ export const artworks: Artwork[] = [
     alt: "AR0110E",
     title: "AR0110E",
     category: "pastel",
+    scale: 2.5,
   },
   {
     id: 26,
-    src: "/assets/pastel/atelier-19.JPG",
+    src: "/assets/pastel/atelier-19-resize.JPG",
     alt: "Atelier 19",
     title: "Atelier 19",
     category: "pastel",
+    scale: 2.5,
   },
   {
     id: 20,
@@ -165,6 +185,7 @@ export const artworks: Artwork[] = [
     alt: "021",
     title: "021",
     category: "pastel",
+    scale: 2.5,
   },
   {
     id: 24,
@@ -172,6 +193,7 @@ export const artworks: Artwork[] = [
     alt: "Atelier 16",
     title: "Atelier 16",
     category: "pastel",
+    scale: 2.5,
   },
   {
     id: 19,
@@ -179,6 +201,7 @@ export const artworks: Artwork[] = [
     alt: "007",
     title: "007",
     category: "pastel",
+    scale: 2.5,
   },
   {
     id: 21,
@@ -186,6 +209,7 @@ export const artworks: Artwork[] = [
     alt: "037",
     title: "037",
     category: "pastel",
+    scale: 2.5,
   },
   {
     id: 27,
@@ -193,6 +217,7 @@ export const artworks: Artwork[] = [
     alt: "Nuit 9",
     title: "Nuit 9",
     category: "pastel",
+    scale: 2.5,
   },
   {
     id: 23,
@@ -200,6 +225,7 @@ export const artworks: Artwork[] = [
     alt: "Atelier 13",
     title: "Atelier 13",
     category: "pastel",
+    scale: 2.5,
   },
   // Photo & Peinture
   {
@@ -208,6 +234,7 @@ export const artworks: Artwork[] = [
     alt: "La Madeleine",
     title: "La Madeleine",
     category: "photo-peinture",
+    scale: 2.5,
   },
   {
     id: 36,
@@ -215,6 +242,7 @@ export const artworks: Artwork[] = [
     alt: "Toccata",
     title: "Toccata",
     category: "photo-peinture",
+    scale: 2.5,
   },
   {
     id: 37,
@@ -222,6 +250,7 @@ export const artworks: Artwork[] = [
     alt: "Étraves",
     title: "Étraves",
     category: "photo-peinture",
+    scale: 2.5,
   },
   {
     id: 33,
@@ -229,6 +258,7 @@ export const artworks: Artwork[] = [
     alt: "L'attente",
     title: "L'attente",
     category: "photo-peinture",
+    scale: 2.5,
   },
   {
     id: 30,
@@ -236,6 +266,7 @@ export const artworks: Artwork[] = [
     alt: "Contreforts",
     title: "Contreforts",
     category: "photo-peinture",
+    scale: 2.5,
   },
   {
     id: 35,
@@ -243,6 +274,7 @@ export const artworks: Artwork[] = [
     alt: "Mirage",
     title: "Mirage",
     category: "photo-peinture",
+    scale: 2.5,
   },
   {
     id: 31,
@@ -250,6 +282,7 @@ export const artworks: Artwork[] = [
     alt: "Empreinte 20",
     title: "Empreinte 20",
     category: "photo-peinture",
+    scale: 2.5,
   },
   {
     id: 34,
@@ -257,6 +290,7 @@ export const artworks: Artwork[] = [
     alt: "L'orée",
     title: "L'orée",
     category: "photo-peinture",
+    scale: 2.5,
   },
   {
     id: 29,
@@ -264,63 +298,24 @@ export const artworks: Artwork[] = [
     alt: "Clef de voûte",
     title: "Clef de voûte",
     category: "photo-peinture",
+    scale: 2.5,
   },
-  {
-    id: 28,
-    src: "/assets/photo-peinture/IMG_9434.JPG",
-    alt: "IMG 9434",
-    title: "IMG 9434",
-    category: "photo-peinture",
-  },
+  // {
+  //   id: 28,
+  //   src: "/assets/photo-peinture/IMG_9434.JPG",
+  //   alt: "IMG 9434",
+  //   title: "IMG 9434",
+  //   category: "photo-peinture",
+  //   scale: 2.5,
+  // },
   // Livres
-  {
-    id: 42,
-    src: "/assets/livres/IMG_7371.JPG",
-    alt: "IMG 7371",
-    title: "IMG 7371",
-    category: "livres",
-  },
-  {
-    id: 45,
-    src: "/assets/livres/IMG_7380.JPG",
-    alt: "IMG 7380",
-    title: "IMG 7380",
-    category: "livres",
-  },
-  {
-    id: 43,
-    src: "/assets/livres/IMG_7375.JPG",
-    alt: "IMG 7375",
-    title: "IMG 7375",
-    category: "livres",
-  },
-  {
-    id: 46,
-    src: "/assets/livres/IMG_9434.JPG",
-    alt: "IMG 9434",
-    title: "IMG 9434",
-    category: "livres",
-  },
-  {
-    id: 38,
-    src: "/assets/livres/IMG_5187.JPG",
-    alt: "IMG 5187",
-    title: "IMG 5187",
-    category: "livres",
-  },
-  {
-    id: 44,
-    src: "/assets/livres/IMG_7378.JPG",
-    alt: "IMG 7378",
-    title: "IMG 7378",
-    category: "livres",
-  },
   {
     id: 39,
     src: "/assets/livres/IMG_5675.JPG",
     alt: "IMG 5675",
     title: "IMG 5675",
     category: "livres",
+    scale: 1.1,
   },
   {
     id: 40,
@@ -328,6 +323,7 @@ export const artworks: Artwork[] = [
     alt: "IMG 5682",
     title: "IMG 5682",
     category: "livres",
+    scale: 1.1,
   },
   {
     id: 41,
@@ -335,5 +331,54 @@ export const artworks: Artwork[] = [
     alt: "IMG 5687",
     title: "IMG 5687",
     category: "livres",
+    scale: 1.1,
+  },
+  {
+    id: 46,
+    src: "/assets/livres/IMG_9434.JPG",
+    alt: "IMG 9434",
+    title: "IMG 9434",
+    category: "livres",
+    scale: 1.1,
+  },
+  {
+    id: 44,
+    src: "/assets/livres/IMG_7378.JPG",
+    alt: "IMG 7378",
+    title: "IMG 7378",
+    category: "livres",
+    scale: 1.1,
+  },
+  {
+    id: 38,
+    src: "/assets/livres/IMG_5187.JPG",
+    alt: "IMG 5187",
+    title: "IMG 5187",
+    category: "livres",
+    scale: 1.1,
+  },
+  {
+    id: 42,
+    src: "/assets/livres/IMG_7371.JPG",
+    alt: "IMG 7371",
+    title: "IMG 7371",
+    category: "livres",
+    scale: 1.1,
+  },
+  {
+    id: 45,
+    src: "/assets/livres/IMG_7380.JPG",
+    alt: "IMG 7380",
+    title: "IMG 7380",
+    category: "livres",
+    scale: 1.1,
+  },
+  {
+    id: 43,
+    src: "/assets/livres/IMG_7375.JPG",
+    alt: "IMG 7375",
+    title: "IMG 7375",
+    category: "livres",
+    scale: 1.1,
   },
 ];
