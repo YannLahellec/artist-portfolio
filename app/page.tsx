@@ -30,16 +30,22 @@ export default function Home() {
         </div>
         <div className="w-full md:w-7/12 flex flex-col justify-center md:pt-8">
           <p className="font-jost text-sm md:text-base leading-relaxed text-zinc-300">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor
-            incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud
-            exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure
-            dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+            Architecte DPLG
+            <br />
+            Scénographe
+            <br />
+            Académie Nicolas Poussin, atelier Maurice Guillon
+            <br />
+            Vice-présidente du Salon d&apos;Automne
+            <br />
+            Responsable de la section Photographie du Salon d&apos;Automne
           </p>
           <p className="font-jost text-sm md:text-base leading-relaxed text-zinc-300 mt-4">
-            Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt
-            mollit anim id est laborum. Curabitur pretium tincidunt lacus. Nulla gravida orci a odio.
-            Nullam varius, turpis molestie dictum semper, nisi lorem egestas odio, vitae scelerisque
-            enim ligula venenatis dolor.
+            Techniques :
+            <br />
+            huile, acrylique, aquarelle, pastel, dessin, modelage, sculpture, linogravure,
+            photogravure, photographie, technique mixte peinture-photographie, livres
+            d&apos;artistes (notamment en collaboration avec Gilles Guillaume et Edith Delattre)
           </p>
         </div>
       </section>
